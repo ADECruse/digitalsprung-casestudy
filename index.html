@@ -7,22 +7,22 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="grid h-svh grid-cols-1 gap-4 my-8 lg:my-10 xl:m-auto max-w-7xl">
+    <div class="my-8 grid h-svh max-w-7xl grid-cols-1 gap-4 lg:my-10 xl:m-auto">
       <!-- card section wrapper  -->
       <div
-        class="flex flex-col max-h-1/2 lg:max-h-full gap-4 lg:gap-6 ml-5 lg:ml-11 lg:mr-11 lg:mt-14"
+        class="ml-5 flex max-h-1/2 flex-col gap-4 lg:mt-14 lg:mr-11 lg:ml-11 lg:max-h-full lg:gap-6"
       >
         <h1 class="text-2xl">Lebensmittel nach Land</h1>
         <!-- cards wrapper -->
         <div
-          class="flex flex-row flex-nowrap lg:flex-wrap md:max-lg:justify-between gap-4 lg:gap-6 text-white overflow-x-auto text-center min-h-1/2 pr-5 pb-3 lg:pr-0"
+          class="flex min-h-1/2 flex-row flex-nowrap gap-4 overflow-x-auto pr-5 pb-3 text-center text-white md:max-lg:justify-between lg:flex-wrap lg:gap-6 lg:pr-0"
         >
           <!-- Japan card -->
           <div
-            class="lg:basis-1/2 lg:grow-2 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1540648639573-8c848de23f0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-58 lg:h-85 gap-4"
+            class="relative flex h-58 min-w-40 flex-col items-center justify-end gap-4 bg-gray-400 bg-[url(https://images.unsplash.com/photo-1540648639573-8c848de23f0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80)] bg-cover px-6 py-3.5 bg-blend-multiply lg:h-85 lg:min-w-96 lg:grow-2 lg:basis-1/2 lg:justify-center"
           >
             <svg
-              class="absolute top-2 right-2 lg:top-3.5 lg:right-3.5 w-7.5 h-7.5 lg:w-12 lg:h-12"
+              class="absolute top-2 right-2 h-7.5 w-7.5 lg:top-3.5 lg:right-3.5 lg:h-12 lg:w-12"
               enable-background="new 0 0 512 512"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
@@ -45,19 +45,19 @@
               <g />
               <g />
             </svg>
-            <h2 class="text-2xl lg:text-4xl text-wrap">Japan</h2>
+            <h2 class="text-2xl text-wrap lg:text-4xl">Japan</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 w-auto text-wrap text-sm"
+              class="w-auto rounded-sm border-1 border-solid border-white px-4 py-2.5 text-sm text-wrap transition delay-50 duration-300 ease-in-out hover:bg-white hover:text-black active:bg-gray-400 lg:px-7.5"
             >
               Jetzt entdecken
             </button>
           </div>
           <!-- Thailand card -->
           <div
-            class="lg:grow-3 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-58 lg:h-85 gap-4"
+            class="relative flex h-58 min-w-40 flex-col items-center justify-end gap-4 bg-gray-400 bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover px-6 py-3.5 bg-blend-multiply lg:h-85 lg:min-w-96 lg:grow-3 lg:justify-center"
           >
             <svg
-              class="absolute top-2 right-2 lg:top-3.5 lg:right-3.5 w-7.5 h-7.5 lg:w-12 lg:h-12"
+              class="absolute top-2 right-2 h-7.5 w-7.5 lg:top-3.5 lg:right-3.5 lg:h-12 lg:w-12"
               enable-background="new 0 0 512 512"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
@@ -93,17 +93,17 @@
             </svg>
             <h2 class="text-2xl lg:text-4xl">Thailand</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 text-wrap text-sm"
+              class="rounded-sm border-1 border-solid border-white px-4 py-2.5 text-sm text-wrap transition delay-50 duration-300 ease-in-out hover:bg-white hover:text-black active:bg-gray-400 lg:px-7.5"
             >
               Jetzt entdecken
             </button>
           </div>
           <!-- China -->
           <div
-            class="lg:grow-0 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-58 lg:h-85 gap-4"
+            class="relative flex h-58 min-w-40 flex-col items-center justify-end gap-4 bg-gray-400 bg-[url(https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)] bg-cover px-6 py-3.5 bg-blend-multiply lg:h-85 lg:min-w-96 lg:grow-0 lg:justify-center"
           >
             <svg
-              class="absolute top-2 right-2 lg:top-3.5 lg:right-3.5 w-7.5 h-7.5 lg:w-12 lg:h-12"
+              class="absolute top-2 right-2 h-7.5 w-7.5 lg:top-3.5 lg:right-3.5 lg:h-12 lg:w-12"
               enable-background="new -49 141 512 512"
               viewBox="-49 141 512 512"
               xmlns="http://www.w3.org/2000/svg"
@@ -129,17 +129,17 @@
             </svg>
             <h2 class="text-2xl lg:text-4xl">China</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 text-wrap text-sm"
+              class="rounded-sm border-1 border-solid border-white px-4 py-2.5 text-sm text-wrap transition delay-50 duration-300 ease-in-out hover:bg-white hover:text-black active:bg-gray-400 lg:px-7.5"
             >
               Jetzt entdecken
             </button>
           </div>
           <!-- Korea -->
           <div
-            class="lg:grow-2 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1631709497146-a239ef373cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-58 lg:h-85 gap-4"
+            class="relative flex h-58 min-w-40 flex-col items-center justify-end gap-4 bg-gray-400 bg-[url(https://images.unsplash.com/photo-1631709497146-a239ef373cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover px-6 py-3.5 bg-blend-multiply lg:h-85 lg:min-w-96 lg:grow-2 lg:justify-center"
           >
             <svg
-              class="absolute top-2 right-2 lg:top-3.5 lg:right-3.5 w-7.5 h-7.5 lg:w-12 lg:h-12"
+              class="absolute top-2 right-2 h-7.5 w-7.5 lg:top-3.5 lg:right-3.5 lg:h-12 lg:w-12"
               enable-background="new 0 0 512 512"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +243,7 @@
             </svg>
             <h2 class="text-2xl lg:text-4xl">Korea</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 text-wrap text-sm"
+              class="rounded-sm border-1 border-solid border-white px-4 py-2.5 text-sm text-wrap transition delay-50 duration-300 ease-in-out hover:bg-white hover:text-black active:bg-gray-400 lg:px-7.5"
             >
               Jetzt entdecken
             </button>
