@@ -1,29 +1,279 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <title>title</title>
-    <link href="style.css" rel="stylesheet">
+    <title>digitalsprung case study</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1></h1>
-    <section>
-      <div>
-        <h2></h2>
-        <button></button>
+    <div class="grid h-svh grid-cols-1 gap-4 my-8">
+      <!--   -->
+      <div class="flex flex-col max-h-1/2 gap-4 ml-5">
+        <h1 class="text-2xl">Lebensmittel nach Land</h1>
+        <!-- card -->
+        <div
+          class="flex flex-row flex-nowrap gap-4 text-white overflow-x-auto text-center min-h-1/2"
+        >
+          <div
+            class="relative flex flex-col justify-end align-middle bg-black-500 bg-[url(https://images.unsplash.com/photo-1540648639573-8c848de23f0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80)] bg-cover bg-blend-darken min-w-40 px-6 py-3.5 max-h-56 gap-4"
+          >
+            <svg
+              class="absolute top-0 -right-1 w-18"
+              xmlns="http://www.w3.org/2000/svg"
+              data-name="Layer 1"
+              viewBox="0 0 1500 1000"
+            >
+              <defs>
+                <clipPath id="a">
+                  <circle cx="750" cy="500" r="387.99" style="fill: none" />
+                </clipPath>
+              </defs>
+              <g style="clip-path: url(#a)">
+                <path
+                  d="M-142.72-96.96h1787.93v1193.93H-142.72z"
+                  style="fill: #fff"
+                />
+                <circle cx="751.24" cy="500" r="204.77" style="fill: #bc112a" />
+              </g>
+            </svg>
+            <h2 class="text-2xl text-wrap">Japan</h2>
+            <button
+              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+            >
+              Jetzt entdecken
+            </button>
+          </div>
+          <div
+            class="relative flex flex-col justify-end align-middle bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover min-w-40 px-6 py-3.5 h-56 gap-4"
+          >
+            <svg
+              class="absolute top-0 -right-1 w-18"
+              xmlns="http://www.w3.org/2000/svg"
+              data-name="Layer 1"
+              viewBox="0 0 1500 1000"
+            >
+              <defs>
+                <clipPath id="a">
+                  <circle cx="750" cy="500" r="331" style="fill: none" />
+                </clipPath>
+              </defs>
+              <g style="clip-path: url(#a)">
+                <path
+                  d="M250.02 167.15h999.95v665.71H250.02z"
+                  style="fill: #eb2027"
+                />
+                <path
+                  d="M250.02 279.71h999.95v442.52H250.02z"
+                  style="fill: #fff"
+                />
+                <path
+                  d="M250.02 390.34h999.95V611.6H250.02z"
+                  style="fill: #241c4e"
+                />
+              </g>
+            </svg>
+            <h2 class="text-2xl">Thailand</h2>
+            <button
+              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+            >
+              Jetzt entdecken
+            </button>
+          </div>
+          <div
+            class="relative flex flex-col justify-end align-middle bg-[url(https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)] bg-cover min-w-40 px-6 py-3.5 h-56 gap-4"
+          >
+            <svg
+              class="absolute top-0 -right-1 w-18"
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 1500 1000"
+            >
+              <defs>
+                <clipPath id="clip-path">
+                  <circle cx="750" cy="500" r="331" style="fill: none" />
+                </clipPath>
+                <style>
+                  .cls-4 {
+                    fill: #fddd00;
+                  }
+                </style>
+              </defs>
+              <g style="clip-path: url(#clip-path)">
+                <path d="M0 0h1500v1000H0z" style="fill: #dd2d26" />
+                <path
+                  d="m656.71 414.72 67.72-49.54h-83.71l-25.86-80.17L589 365.18h-83.71l67.72 49.54-25.87 80.16 67.72-49.54 67.72 49.54-25.87-80.16zM817.93 294.71l27.2-6.31-25.68-10.99 2.45-27.99-18.32 21.2-25.67-11 14.35 24.09-18.31 21.2 27.18-6.3 14.36 24.09 2.44-27.99zM890.13 375.62l27.49 4.81-19.42-20.16 13.04-24.84-25.05 12.38-19.43-20.18 3.95 27.82-25.05 12.37 27.49 4.82 3.94 27.81 13.04-24.83zM897.78 482.43l21.97-17.32-27.88 1.01-9.57-26.4-7.66 27.02-27.89 1.01 23.15 15.69-7.67 27.01 21.97-17.31 23.15 15.69-9.57-26.4zM818.33 564.95l26.9-7.44-26.1-9.91 1.29-28.06-17.43 21.93-26.11-9.92 15.34 23.48-17.43 21.94 26.91-7.43 15.33 23.47 1.3-28.06z"
+                  class="cls-4"
+                />
+              </g>
+            </svg>
+            <h2 class="text-2xl">China</h2>
+            <button
+              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+            >
+              Jetzt entdecken
+            </button>
+          </div>
+          <div
+            class="relative flex flex-col justify-end align-middle bg-[url(https://images.unsplash.com/photo-1631709497146-a239ef373cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover min-w-40 px-6 py-3.5 h-56 gap-4"
+          >
+            <svg
+              class="absolute top-0 -right-1 w-18"
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 1500 1000"
+            >
+              <defs>
+                <clipPath id="clip-path">
+                  <circle cx="750" cy="500" r="331" style="fill: none" />
+                </clipPath>
+                <style>
+                  .cls-4 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <g style="clip-path: url(#clip-path)">
+                <path
+                  d="M215.88 163.21h1039.91v693.27H215.88z"
+                  style="fill: #ce1126"
+                />
+                <path d="M394 84.52h712v830.96H394z" class="cls-4" />
+                <path
+                  id="_18"
+                  d="M509.65 339.77h118.67v79.11H509.65z"
+                  data-name="18"
+                  transform="rotate(-56.31 568.976 379.323)"
+                />
+                <path
+                  id="_17"
+                  d="M487.42 366.15h138.44v9.89H487.42z"
+                  class="cls-4"
+                  data-name="17"
+                  transform="rotate(-56.31 556.637 371.096)"
+                />
+                <path
+                  id="_16"
+                  d="M512.1 382.61h138.44v9.89H512.1z"
+                  class="cls-4"
+                  data-name="16"
+                  transform="rotate(-56.31 581.325 387.554)"
+                />
+                <path
+                  id="_15"
+                  d="M871.68 581.12h118.67v79.11H871.68z"
+                  data-name="15"
+                  transform="rotate(-56.31 931.017 620.674)"
+                />
+                <path
+                  id="_14"
+                  d="M849.45 607.51h138.44v9.89H849.45z"
+                  class="cls-4"
+                  data-name="14"
+                  transform="rotate(-56.31 918.663 612.452)"
+                />
+                <path
+                  id="_13"
+                  d="M874.14 623.96h138.44v9.89H874.14z"
+                  class="cls-4"
+                  data-name="13"
+                  transform="rotate(-56.31 943.365 628.905)"
+                />
+                <path
+                  id="_12"
+                  d="M926.07 571.23h9.89v98.89h-9.89z"
+                  class="cls-4"
+                  data-name="12"
+                  transform="rotate(-56.31 931.026 620.68)"
+                />
+                <circle
+                  id="_11"
+                  cx="750"
+                  cy="500"
+                  r="118.67"
+                  data-name="11"
+                  style="fill: #c60c30"
+                  transform="rotate(-4.87 749.929 499.879)"
+                />
+                <path
+                  id="_10"
+                  d="M651.26 434.18A59.33 59.33 0 0 0 750 500a59.33 59.33 0 1 1 98.74 65.82 118.67 118.67 0 0 1-197.48-131.64"
+                  data-name="10"
+                  style="fill: #003478"
+                />
+                <path
+                  id="_9"
+                  d="M529.43 561.34h79.11v118.67h-79.11z"
+                  data-name="9"
+                  transform="rotate(-33.69 568.988 620.68)"
+                />
+                <path
+                  id="_8"
+                  d="M551.7 559.68h9.89v138.44h-9.89z"
+                  class="cls-4"
+                  data-name="8"
+                  transform="rotate(-33.69 556.635 628.91)"
+                />
+                <path
+                  id="_7"
+                  d="M576.38 543.23h9.89v138.44h-9.89z"
+                  class="cls-4"
+                  data-name="7"
+                  transform="rotate(-33.69 581.325 612.445)"
+                />
+                <path
+                  id="_6"
+                  d="M891.46 319.99h79.11v118.67h-79.11z"
+                  data-name="6"
+                  transform="rotate(-33.69 931.013 379.328)"
+                />
+                <path
+                  id="_5"
+                  d="M913.73 318.33h9.89v138.45h-9.89z"
+                  class="cls-4"
+                  data-name="5"
+                  transform="rotate(-33.69 918.682 387.546)"
+                />
+                <path
+                  id="_4"
+                  d="M938.41 301.87h9.89v138.44h-9.89z"
+                  class="cls-4"
+                  data-name="4"
+                  transform="rotate(-33.69 943.366 371.097)"
+                />
+                <path
+                  id="_3"
+                  d="M881.57 374.38h98.89v9.89h-98.89z"
+                  class="cls-4"
+                  data-name="3"
+                  transform="rotate(-33.69 930.942 379.324)"
+                />
+                <path
+                  id="_2"
+                  d="M921.13 369.43h19.78v19.78h-19.78z"
+                  data-name="2"
+                  transform="rotate(-33.69 931.084 379.331)"
+                />
+                <path
+                  id="_1"
+                  d="M549.21 615.73h39.56v9.89h-39.56z"
+                  class="cls-4"
+                  data-name="1"
+                  transform="rotate(-33.69 568.927 620.644)"
+                />
+              </g>
+            </svg>
+            <h2 class="text-2xl">Korea</h2>
+            <button
+              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+            >
+              Jetzt entdecken
+            </button>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2></h2>
-        <button></button>
-      </div>
-      <div>
-        <h2></h2>
-        <button></button>
-      </div>
-      <div>
-        <h2></h2>
-        <button></button>
-      </div>
-    </section>
+    </div>
   </body>
 </html>
