@@ -7,19 +7,22 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="grid h-svh grid-cols-1 gap-4 my-8">
-      <!--   -->
-      <div class="flex flex-col max-h-1/2 gap-4 ml-5">
+    <div class="grid h-svh grid-cols-1 gap-4 my-8 lg:my-10 xl:m-auto max-w-7xl">
+      <!-- card section wrapper  -->
+      <div
+        class="flex flex-col max-h-1/2 lg:max-h-full gap-4 lg:gap-6 ml-5 lg:ml-11 lg:mr-11 lg:mt-14"
+      >
         <h1 class="text-2xl">Lebensmittel nach Land</h1>
-        <!-- card -->
+        <!-- cards -->
         <div
-          class="flex flex-row flex-nowrap gap-4 text-white overflow-x-auto text-center min-h-1/2"
+          class="flex flex-row flex-nowrap lg:flex-wrap gap-4 lg:gap-6 text-white overflow-x-auto text-center min-h-1/2 pr-5 lg:pr-0"
         >
+          <!-- Japan card -->
           <div
-            class="relative flex flex-col justify-end align-middle bg-black-500 bg-[url(https://images.unsplash.com/photo-1540648639573-8c848de23f0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80)] bg-cover bg-blend-darken min-w-40 px-6 py-3.5 max-h-56 gap-4"
+            class="lg:basis-1/2 lg:grow-2 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1540648639573-8c848de23f0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-56 lg:h-85 gap-4"
           >
             <svg
-              class="absolute top-0 -right-1 w-18"
+              class="absolute top-2 -right-1 w-18"
               xmlns="http://www.w3.org/2000/svg"
               data-name="Layer 1"
               viewBox="0 0 1500 1000"
@@ -37,25 +40,26 @@
                 <circle cx="751.24" cy="500" r="204.77" style="fill: #bc112a" />
               </g>
             </svg>
-            <h2 class="text-2xl text-wrap">Japan</h2>
+            <h2 class="text-2xl lg:text-4xl text-wrap">Japan</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 w-auto text-wrap text-sm"
             >
               Jetzt entdecken
             </button>
           </div>
+          <!-- Thailand card -->
           <div
-            class="relative flex flex-col justify-end align-middle bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover min-w-40 px-6 py-3.5 h-56 gap-4"
+            class="lg:grow-3 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-56 lg:h-85 gap-4"
           >
             <svg
-              class="absolute top-0 -right-1 w-18"
+              class="absolute top-2 -right-1 w-18"
               xmlns="http://www.w3.org/2000/svg"
               data-name="Layer 1"
               viewBox="0 0 1500 1000"
             >
               <defs>
                 <clipPath id="a">
-                  <circle cx="750" cy="500" r="331" style="fill: none" />
+                  <circle cx="750" cy="500" r="331" style="fill: #eb2027" />
                 </clipPath>
               </defs>
               <g style="clip-path: url(#a)">
@@ -73,18 +77,18 @@
                 />
               </g>
             </svg>
-            <h2 class="text-2xl">Thailand</h2>
+            <h2 class="text-2xl lg:text-4xl">Thailand</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 text-wrap text-sm"
             >
               Jetzt entdecken
             </button>
           </div>
           <div
-            class="relative flex flex-col justify-end align-middle bg-[url(https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)] bg-cover min-w-40 px-6 py-3.5 h-56 gap-4"
+            class="lg:grow-0 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-56 lg:h-85 gap-4"
           >
             <svg
-              class="absolute top-0 -right-1 w-18"
+              class="absolute top-2 -right-1 w-18"
               xmlns="http://www.w3.org/2000/svg"
               id="Layer_1"
               data-name="Layer 1"
@@ -108,18 +112,18 @@
                 />
               </g>
             </svg>
-            <h2 class="text-2xl">China</h2>
+            <h2 class="text-2xl lg:text-4xl">China</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 text-wrap text-sm"
             >
               Jetzt entdecken
             </button>
           </div>
           <div
-            class="relative flex flex-col justify-end align-middle bg-[url(https://images.unsplash.com/photo-1631709497146-a239ef373cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover min-w-40 px-6 py-3.5 h-56 gap-4"
+            class="lg:grow-2 relative flex flex-col justify-end lg:justify-center items-center bg-gray-400 bg-[url(https://images.unsplash.com/photo-1631709497146-a239ef373cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)] bg-cover bg-blend-multiply min-w-40 lg:min-w-96 px-6 py-3.5 h-56 lg:h-85 gap-4"
           >
             <svg
-              class="absolute top-0 -right-1 w-18"
+              class="absolute top-2 -right-1 w-18"
               xmlns="http://www.w3.org/2000/svg"
               id="Layer_1"
               data-name="Layer 1"
@@ -265,9 +269,9 @@
                 />
               </g>
             </svg>
-            <h2 class="text-2xl">Korea</h2>
+            <h2 class="text-2xl lg:text-4xl">Korea</h2>
             <button
-              class="border-1 border-solid rounded-sm px-4 py-2 text-wrap"
+              class="border-1 border-solid rounded-sm px-4 lg:px-7.5 py-2.5 text-wrap text-sm"
             >
               Jetzt entdecken
             </button>
