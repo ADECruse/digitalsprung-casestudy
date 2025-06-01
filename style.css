@@ -659,6 +659,20 @@
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
+  .md\:max-lg\:justify-between {
+    @media (width >= 48rem) {
+      @media (width < 64rem) {
+        justify-content: space-between;
+      }
+    }
+  }
+  .md\:max-lg\:justify-evenly {
+    @media (width >= 48rem) {
+      @media (width < 64rem) {
+        justify-content: space-evenly;
+      }
+    }
+  }
   .lg\:top-2 {
     @media (width >= 64rem) {
       top: calc(var(--spacing) * 2);
